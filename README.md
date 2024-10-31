@@ -11,7 +11,7 @@ license: mit
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_III/refs/heads/main/docs/HarmonAI-III.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/MIKOTO-sample-02/refs/heads/main/docs/mikoto-sample-02.png" width="100%">
   <h1 align="center">🌟 HarmonAI III 🌟</h1>
 
   <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III">
