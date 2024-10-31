@@ -1,2 +1,7 @@
 aira
 sourcesage
+
+pytest
+flake8
+black
+pytest-cov
