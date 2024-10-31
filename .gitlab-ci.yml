@@ -1,17 +1,30 @@
 image: python:3.9-slim
 
 stages:
+  - format
   - lint
   - test
-  - format
-  - merge
-
-variables:
-  GIT_STRATEGY: clone
 
 before_script:
   - python -V
   - pip install -r requirements.txt
+  - pip install autopep8 black flake8
+
+format:
+  stage: format
+  script:
+    - autopep8 --in-place --aggressive --aggressive calculator.py test_calculator.py
+    - black calculator.py test_calculator.py
+    - |
+      if [[ -n $(git diff) ]]; then
+        git config --global user.email "gitlab@example.com"
+        git config --global user.name "GitLab CI"
+        git add .
+        git commit -m "Apply automatic formatting with autopep8 and black"
+        git push origin HEAD:$CI_COMMIT_REF_NAME
+      fi
+  tags:
+    - docker
 
 lint:
   stage: lint
@@ -26,36 +39,3 @@ test:
     - python -m pytest test_calculator.py -v
   tags:
     - docker
-
-format:
-  stage: format
-  script:
-    - black calculator.py test_calculator.py
-    - |
-      if [[ -n $(git diff) ]]; then
-        git config --global user.email "gitlab@example.com"
-        git config --global user.name "GitLab CI"
-        git add .
-        git commit -m "Apply automatic formatting with Black"
-        git push origin HEAD:$CI_COMMIT_REF_NAME
-      fi
-  tags:
-    - docker
-  only:
-    - merge_requests
-
-auto-merge:
-  stage: merge
-  script:
-    - |
-      if [ "$CI_PIPELINE_SOURCE" == "merge_request_event" ]; then
-        curl --request PUT --header "PRIVATE-TOKEN: ${GITLAB_API_TOKEN}" \
-             "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/merge_requests/${CI_MERGE_REQUEST_IID}/merge" \
-             --form "should_remove_source_branch=true" \
-             --form "merge_when_pipeline_succeeds=true"
-      fi
-  tags:
-    - docker
-  only:
-    - merge_requests
-  when: on_success
