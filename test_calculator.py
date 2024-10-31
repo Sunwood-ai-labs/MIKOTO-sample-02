@@ -1,11 +1,9 @@
 import unittest
 from calculator import Calculator
 
-
 class TestCalculator(unittest.TestCase):
     def setUp(self):
         self.calc = Calculator()
-
     def test_add(self):
         """加算のテスト"""
         self.assertEqual(self.calc.add(3, 5), 8)
@@ -18,11 +16,16 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calc.subtract(1, 1), 0)
         self.assertEqual(self.calc.subtract(-1, -1), 0)
 
+
+
+
     def test_multiply(self):
         """乗算のテスト"""
         self.assertEqual(self.calc.multiply(3, 5), 15)
         self.assertEqual(self.calc.multiply(-2, 3), -6)
         self.assertEqual(self.calc.multiply(-2, -3), 6)
+
+
 
     def test_divide(self):
         """除算のテスト"""
