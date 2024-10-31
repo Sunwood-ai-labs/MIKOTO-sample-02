@@ -10,11 +10,10 @@ pinned: false
 license: mit
 ---
 
-<p align="center">
+<div align="center">
   <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_III/refs/heads/main/docs/HarmonAI-III.png" width="100%">
   <h1 align="center">🌟 HarmonAI III 🌟</h1>
-</p>
-<p align="center">
+
   <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III">
     <img alt="GitHub Repo" src="https://img.shields.io/badge/github-HarmonAI__III-blue?logo=github">
   </a>
@@ -41,14 +40,14 @@ license: mit
   </a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/HarmonAI_III">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/HarmonAI_III">
-</p>
+</div>
 <h2 align="center">
   ～ AI-Powered Automated Repository Management Template ～
 
 <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
 </h2>
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google" alt="Google Gemini">
@@ -59,15 +58,15 @@ license: mit
   <img src="https://img.shields.io/badge/pip-3775A9?style=for-the-badge&logo=pypi" alt="pip">
   <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown" alt="Markdown">
   <img src="https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github" alt="GitHub API">
-</p>
-<p align="center">
+</div>
+<div align="center">
   <a href="https://github.com/Sunwood-ai-labs/AIRA">
     <img src="https://img.shields.io/badge/AIRA-FF4500?style=for-the-badge&logo=github" alt="AIRA">
   </a>
   <a href="https://github.com/Sunwood-ai-labs/IRIS">
     <img src="https://img.shields.io/badge/IRIS-9370DB?style=for-the-badge&logo=github" alt="IRIS">
   </a>
-</p>
+</div>
 
 
 > [!IMPORTANT]
