@@ -1,18 +1,6 @@
----
-title: HarmonAI III
-emoji: 🦀
-colorFrom: green
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: app.py
-pinned: false
-license: mit
----
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/MIKOTO-sample-02/refs/heads/main/docs/mikoto-sample-02.png" width="100%">
-  <h1 align="center">🌟 HarmonAI III 🌟</h1>
+  <h1 align="center">⛩ MIKOTO sample 02 ⛩</h1>
 
   <a href="https://github.com/Sunwood-ai-labs/mikoto-sample-02">
     <img alt="GitHub Repo" src="https://img.shields.io/badge/github-HarmonAI__III-blue?logo=github">
