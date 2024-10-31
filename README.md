@@ -41,12 +41,15 @@ license: mit
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/HarmonAI_III">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/HarmonAI_III">
 </div>
-<h2 align="center">
-  ～ AI-Powered Automated Repository Management Template ～
 
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
-</h2>
+<div align="center">
+  <h2 align="center">
+    ～ AI-Powered Automated Repository Management Template ～
+
+  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
+  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
+  </h2>
+</div>
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
